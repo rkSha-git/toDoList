@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 435px;
+    background-image: linear-gradient(45deg, rgb(0, 86, 0),rgb(255, 255, 255));
+    border: 5px solid black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 10px 30px;
+}
+div p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-right: 240px;
+    font-weight: bold;
+}
+.input-field{
+    background: rgb(222, 222, 222);
+    width: 370px;
+    border: 1px solid rgb(3, 67, 3);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.input-field input{
+    flex:3;
+    padding: 10px 0px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 16px;
+}
+.input-field button{
+    flex:0.7;
+    border: 2px solid rgb(2, 50, 2);
+    padding: 11px 18px;
+    border-radius: 30px;
+    background: rgb(0, 75, 24);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type:none;
+    font-size: 18px;
+}
+
+li{
+    display: inline;
+    background-image: '📝';
+}
+span{
+    display: inline-block;
+    width: 250px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+span.checked{
+    text-decoration: line-through;
+}
+
+ul div{
+    border: none;
+    border-radius: 50%;
+    padding: 0px 9px 4px 9px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+ul div:hover{
+    background-color: rgb(81, 193, 50);
+}
